@@ -1,0 +1,42 @@
+.header{
+    background-color:rgb(0, 253, 63);
+ display: flex;
+ justify-content: space-between;
+}
+.menu{
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sitedescription{
+display: flex;
+flex-direction:column ;
+justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    border:solid;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color:#707070;
+}
+
+h1{
+    color:red;
+}
+p,h2{
+text-align:center;
+    color:blue;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
